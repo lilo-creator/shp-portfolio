@@ -1,0 +1,47 @@
+
+.hero {
+  height: 100vh;
+  background-color: #2563eb;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-image {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+  border: 4px solid white;
+}
+
+.hero-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.hero-tagline {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-buttons .hero-button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.hero-button.primary {
+  background-color: white;
+  color: #2563eb;
+}
+
+.hero-button.secondary {
+  border: 1px solid white;
+  color: white;
+}
